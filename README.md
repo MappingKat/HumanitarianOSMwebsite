@@ -1,5 +1,5 @@
-HOTsexywebsite
-==============
+HOT Activation Map
+==================
 
 This name probably sounds a little naughty, but it is actually a map of HOT's activations... 
 
@@ -21,3 +21,11 @@ drought, conflict, etc)
 
 
 Over and out.  
+
+How you can help
+================
+In the layers folder, there are two charts: excel and .csv.  The csv can only be used in TileMill, which is what I have been using to upload the images and pop-up information, but the excel is easier to update and play around with.  Anywho, the content needs to be updated and added to.  Please feel free to fork this repo or download it as a zip and edit it.  If you are uncomfortable with github then y 
+you can just send me the updated file (maybe with tracked changes) and I can update it (katrina.engelsted@hotosm.org).
+
+
+Thank you!
