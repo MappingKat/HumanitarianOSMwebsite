@@ -1,0 +1,64 @@
+{
+  "bounds": [
+    -80.1563,
+    -46.195,
+    177.5391,
+    49.0379
+  ],
+  "center": [
+    19.8633,
+    13.0688,
+    2
+  ],
+  "format": "png",
+  "interactivity": {
+    "fields": [
+      "Location",
+      "Year",
+      "Type1",
+      "Description",
+      "Partners",
+      "Link",
+      "Blogs"
+    ],
+    "layer": "HOT",
+    "template_teaser": "<style type='text/css'>\n.wax-tooltip {\n  max-height: 1800px !important;\n  background:#222;\n  color:#FFF;\n  display:block;\n  position:absolute;\n  right:10px;\n  top:10px;\n  max-width:300px;\n  padding:10px;\n  border:1px solid #ccc;\n  border-radius:3px;\n  -webkit-border-radius:3px;\n  box-shadow:rgba(0,0,0,0.1) 0 1px 3px;\n  -webkit-box-shadow:rgba(0,0,0,0.1) 0 1px 3px;\n  -webkit-user-select:auto;\n}\n</style>\n\n<big>{{{Location}}}</big>\n<hr> \n<sup align=left><small><strong>When: </strong>{{{Year}}}</sup></small> \n<br /><sup align=right><small><strong>Why: </strong>{{{Type1}}}</sup></small>\n<hr> \n{{{Description}}} \n<hr> \n<strong>Partners:</strong> {{{Partners}}} <br />\n<hr> </div>Visit <a href=\"{{{Link}}}\">here</a> for more details.\nCheck out these blog entries: {{{Blogs}}}",
+    "template_full": "<style type='text/css'>\n.wax-tooltip {\n  max-height: 1800px !important;\n  background:#222;\n  color:#FFF;\n  display:block;\n  position:absolute;\n  right:10px;\n  top:10px;\n  max-width:300px;\n  padding:10px;\n  border:1px solid #ccc;\n  border-radius:3px;\n  -webkit-border-radius:3px;\n  box-shadow:rgba(0,0,0,0.1) 0 1px 3px;\n  -webkit-box-shadow:rgba(0,0,0,0.1) 0 1px 3px;\n  -webkit-user-select:auto;\n}\n</style>\n\n<big>{{{Location}}}</big>\n<hr> \n<sup align=left><small><strong>When: </strong>{{{Year}}}</sup></small> \n<br /><sup align=right><small><strong>Why: </strong>{{{Type1}}}</sup></small>\n<hr> \n{{{Description}}} \n<hr> \n<strong>Partners:</strong> {{{Partners}}} <br />\n<hr> </div>Visit <a href=\"{{{Link}}}\">here</a> for more details.\nCheck out these blog entries: {{{Blogs}}}"
+  },
+  "minzoom": 0,
+  "maxzoom": 7,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "point",
+      "extent": [
+        -74.297333,
+        -43.5320544,
+        172.6362254,
+        45.4404215
+      ],
+      "id": "HOT",
+      "class": "",
+      "Datasource": {
+        "file": "HOTprojects.csv",
+        "id": "HOT",
+        "project": "Test",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "HOT"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "HOT project",
+  "description": "",
+  "legend": "",
+  "attribution": "MappingKat ©OpenStreetMap",
+  "version": "1.0.0"
+}
